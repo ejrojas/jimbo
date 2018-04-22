@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6" type="template">
+	<name></name>
+	<creationDate></creationDate>
+	<author></author>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<copyright></copyright>
+	<license></license>
+	<version></version>
+	<descrption></descrption>
+	<files>
+		<filename></filename>
+		<filename></filename>
+		<folder></folder>
+		<folder></folder>
+	</files>
+	<positions>
+		<position></position>
+		<position></position>
+		<position></position>
+		<position></position>
+		<position></position>
+		<position></position>
+		<position></position>
+		<position></position>
+		<position></position>
+		<position></position>
+	</positions>
+</extension>
