@@ -1,21 +1,27 @@
-<?php defined( '_JEXEC' ) or die( 'Restricted Access' ); ?>
+<?php 
+defined( '_JEXEC' ) or die( 'Restricted Access' );
+$doc = JFactory::getDocument();
+
+//Add stylesheets
+$doc->addStyleSheet('templates/'.$this->template.'/css/bootstrap.min.css'); 
+$doc->addStyleSheet('templates/'.$this->template.'/css/template.css'); 
+//Add Scripts
+$doc->addScript('https://code.jquery.com/jquery-3.3.1.slim.min.js');
+$doc->addScript('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js');
+?>
 
 <!doctype html>
 <html lang="en">
   <head>
+  	<jdoc:include type="head" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="favicon.ico">
 
-    <title>Cover Template for Bootstrap</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/template.css" rel="stylesheet">
+    <title>Jimbo</title>
+	<jdoc:include type="modules" name="custom_header_code" /> 
   </head>
 
   <body class="text-center">
@@ -47,11 +53,5 @@
       </footer>
     </div>
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
   </body>
 </html>

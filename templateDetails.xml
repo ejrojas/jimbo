@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.6" type="template">
-	<name></name>
-	<creationDate></creationDate>
-	<author></author>
-	<authorEmail></authorEmail>
-	<authorUrl></authorUrl>
-	<copyright></copyright>
-	<license></license>
-	<version></version>
-	<descrption></descrption>
+<extension version="3.6" type="template" client="site">
+	<name>Jimbo</name>
+	<creationDate>April 20 2018</creationDate>
+	<author>EJ Rojas</author>
+	<authorEmail>ejrojas78@gmail.com</authorEmail>
+	<authorUrl>http://ejrojas.com</authorUrl>
+	<copyright>ejrojas</copyright>
+	<license>GNU</license>
+	<version>0.0.1</version>
+	<descrption>Jimbo is a basic template to use as a start up template for the common avergae joe.</descrption>
 	<files>
-		<filename></filename>
-		<filename></filename>
-		<folder></folder>
-		<folder></folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>html</folder>
 	</files>
 	<positions>
-		<position></position>
-		<position></position>
-		<position></position>
-		<position></position>
-		<position></position>
-		<position></position>
-		<position></position>
-		<position></position>
-		<position></position>
-		<position></position>
+		<position>custom_head_code</position>
 	</positions>
 </extension>
